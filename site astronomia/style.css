@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-image: none;
+}
+
+body {
+    background-image: url(assets/fundo\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    justify-content: space-between;
+}
+
+#site-logo {
+    width: 135px;
+    height: 135px;
+    align-items: center;
+    margin-right: 100px;
+
+}
+
+.pesquisar {
+    display: flex;
+    align-items: center;
+}
+
+#site-menu {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+}
+
+#site-lupa {
+    height: 25px;
+    width: 25px;
+}
+
+#pesquisar {
+    width: 70;
+}
+
+#icon-site {
+    width: 130px;
+    height: 90px;
+    align-items: first baseline;
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+    justify-content: space-between;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.sessoes {
+    display: flex;
+    gap: 50px;
+}
+
+
+#texto {
+    background-color: rgba(68, 68, 162, 0.804);
+    width: 80vh;
+    height: 40vh;
+    margin-left: 65px;
+    margin-top: 60px;
+}
+
+#momentos {
+    background-color: rgba(68, 68, 162, 0.804);
+    width: 70vh;
+    height: 80vh;
+    margin-left: 25vh;
+    margin-top: 10px;
+}
+
+#apollo {
+    width: 90px;
+    height: 90px;
+    margin-left: 2px;
+    margin-top: 17px;
+}
+
+.texto-1 {
+    display: flex;
+    margin-left: 15px;
+}
+
+#eclipse {
+    width: 90px;
+    height: 90px;
+    margin-left: 2px;
+    margin-top: 17px;
+}
+
+.texto-2 {
+    display: flex;
+    margin-left: 15px;
+}
+
+#fotomais-profunda {
+    width: 90px;
+    height: 90px;
+    margin-left: 2px;
+    margin-top: 17px;
+}
+
+.texto-3 {
+    display: flex;
+    margin-left: 15px;
+}
+
+#buraco-negro {
+    width: 90px;
+    height: 90px;
+    margin-left: 2px;
+    margin-top: 17px;
+}
+
+.texto-4 {
+    display: flex;
+    margin-left: 15px;
+}
+
+
+#onde-tudo-começou {
+    background-color: rgba(68, 68, 162, 0.804);
+    margin-top: 90vh;
+    margin-left: -175vh;
+    width: 150vh;
+    height: 45vh;
+}
+
+#foto-do-dia {
+    background-color: rgba(68, 68, 162, 0.804);
+    margin-top: 140vh;
+    margin-left: -183vh;
+    height: 20vh;
+    width: 150vh;
+}
+
+#moon-to-mars {
+    background-color: rgba(68, 68, 162, 0.804);
+    margin-top: 170vh;
+    margin-left: -158vh;
+    height: 35vh;
+    width: 150vh;
+}
+
+#ultimas-noticias {
+    background-color: rgba(0, 0, 0, 0.733);
+    margin-top: 230vh;
+    margin-left: -170vh;
+    height: 100vh;
+    width: 80vh;
+    color: white;
+}
+
+.noticia1:hover {
+    transform: scale(1.25);
+}
+
+.noticia1 {
+    display: flex;
+    height: 20vh;
+    width: 10vh;
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+.textonoticia1 {
+    font-size: 15px;
+    margin-left: 15px;
+    text-align: baseline;
+    margin-top: 5px;
+}
+
+.noticia-2:hover {
+    transform: scale(1.25);
+}
+
+.noticia-2 {
+    display: flex;
+    height: 20vh;
+    width: 10vh;
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+
+.textonoticia2 {
+    font-size: 15px;
+    margin-left: 15px;
+    text-align: baseline;
+}
+
+.noticia-3:hover {
+    transform: scale(1.25);
+}
+
+.noticia-3 {
+    display: flex;
+    height: 20vh;
+    width: 10vh;
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+.textonoticia3 {
+    font-size: 15px;
+    margin-left: 15px;
+    text-align: baseline;
+}
+
+
+.imagens {
+    display: flex;
+    width: 20vw;
+    justify-content: space-between;
+}
+
+#influenciando-descobertas {
+    background-color: rgba(68, 68, 162, 0.804);
+    margin-top: 230vh;
+    margin-left: 25vh;
+    height: 45vh;
+    width: 70vh;
+}
+
+.cadastro {
+    margin-top: 310vh;
+    margin-right: -1000px;
+    margin-left: -90vh;
+}
+
+#nome {
+    height: 25px;
+    width: 40vh;
+    margin-top: 5px;
+}
+
+#email {
+    height: 25px;
+    width: 40vh;
+    margin-top: 5px;
+}
+
+#bnt {
+    height: 30px;
+    width: 80px;
+    color: solid #DAA520;
+    background-color: #DAA520;
+    text-shadow: 1px 1px 1px rgb(221, 204, 204);
+    margin-top: 5px;
+}
+
+#textocadastro {
+    font-family: 'Inconsolata', monospace;
+}
+
+#textoapollo {
+    margin-top: 17px;
+    margin-left: 5px;
+}
+
+#textoeclipse {
+    margin-top: 17px;
+    margin-left: 5px;
+}
+
+#textofotojamesweeb {
+    margin-top: 17px;
+    margin-left: 5px;
+}
+
+#textoburaconegro {
+    margin-top: 17px;
+    margin-left: 5px;
+}
